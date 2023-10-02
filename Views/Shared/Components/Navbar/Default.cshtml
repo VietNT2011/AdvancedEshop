@@ -17,7 +17,7 @@
 
             @foreach(var item in Model)
             {
-                <a href="" class="nav-item nav-link">@item.CategoryName</a>
+                <a href="/Products/Index/?CategoryId=@item.CategoryId" class="nav-item nav-link">@item.CategoryName</a>
             }
             
         </div>
